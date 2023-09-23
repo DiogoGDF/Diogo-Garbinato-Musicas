@@ -1,0 +1,9 @@
+a {
+  max-width: 8rem;
+}
+
+img {
+  border-radius: 5%;
+  width: 8rem;
+  height: auto;
+}

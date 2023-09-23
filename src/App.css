@@ -1,0 +1,40 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  border-radius: 50%;
+  width: 10rem;
+  height: auto;
+}
+
+.bands {
+  background-color: #0f0f0f;
+  max-width: 600px;
+  border-radius: 3%;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.bands h2 {
+  color: white;
+  text-align: center;
+}
+
+.bands p {
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.band-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;
+}
