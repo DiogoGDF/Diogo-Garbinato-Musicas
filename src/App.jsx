@@ -10,19 +10,21 @@ function App() {
       </header>
       
       <section className='bands'>
-        <h2>Minhas Bandas Preferidas</h2>
-        <p>As Bandas que eu mais curto ouvir!</p>
-        <div className='band-cards'>
-          {bands.map((band) => {
-            return (
-              <Band
-                key={band.id}
-                name={band.name}
-                image={band.image}
-                spotify={band.spotify}
-              />
-            )
-          })}
+        <div className='background'>
+          <h2>Minhas Bandas Preferidas</h2>
+          <p>As Bandas que eu mais curto ouvir!</p>
+          <div className='band-cards'>
+            {bands.map((band) => {
+              return (
+                <Band
+                  key={band.id}
+                  name={band.name}
+                  image={band.image}
+                  spotify={band.spotify}
+                />
+              )
+            })}
+          </div>
         </div>
       </section>
       <section>
